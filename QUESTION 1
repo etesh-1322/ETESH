@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int i,n,type[20];
+	int respT[20];
+	
+	printf("Number of processes:\n ");
+	scanf("%d",&n);
+	printf("Enter the data for the processes\n");
+	for(i=0;i<n;i++)
+	{
+		printf("Response time of Process %d (in milliseconds):\n ",i);
+		scanf("%d",&respT[i]);
+	
+		type[i]=respT[i]<1000?1:0;
+	}
