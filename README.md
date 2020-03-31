@@ -1,4 +1,5 @@
-OS PROJECT
+                          OS PROJECT
+
 Q1.Researchers designed one system that classified interactive and noninteractive processes
 automatically by looking at the amount of terminal I/O. If a process did not input or
 output to the terminal in a 1-second interval, the process was classified as noninteractive
