@@ -1,0 +1,19 @@
+Number of processes:
+ 4
+Enter the data for the processes
+Response time of Processes 0 (in milliseconds):
+ 46
+Response time of Processes 1 (in milliseconds):
+ 899
+Response time of Processes 2 (in milliseconds):
+ 887
+Response time of Processes 3 (in milliseconds):
+ 5555
+Process Number  Response Time   Type            Priority
+P0              46ms            Interactive     High
+P1              899ms           Interactive     High
+P2              887ms           Interactive     High
+P3              5555ms          Non-Interactive Low
+--------------------------------
+Process exited after 16.15 seconds with return value 4
+Press any key to continue . . .
